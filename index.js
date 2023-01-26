@@ -36,7 +36,6 @@
 
 ////////////// ikkinchi dars
 
-
 // varable
 
 /// varablelarning 3 turi bo'ladi :
@@ -81,7 +80,13 @@
 ///// bigInt...............=> on olti xonaligdan katta bo'lgan sonlar ;
 ///// sybol................=> xech qacho takrorlanmas ID yaratib beradi ;
 
-////// null vs undefined : null-bu ob'ekt yo'qligining aniq qiymati, undefined esa noaniqlikni ;
+////// null vs undefined :
+
+/////// null-bu ob'ekt yo'qligining aniq qiymati, undefined esa noaniqlikni ;
+/////// null == undefined     // true
+/////// null === undefined    // false
+/////// isNaN(undefined)      // true
+/////// isNaN(null)           // false
 
 //// non-primitive :
 
