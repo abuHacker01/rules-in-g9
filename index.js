@@ -39,7 +39,6 @@
 // varable
 
 /// varablelarning 3 turi bo'ladi :
-
 //// 1. VAR
 
 ///// u oldindan beri bor bo'lgan.
