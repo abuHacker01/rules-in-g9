@@ -195,3 +195,10 @@
 /// if elseda (--else if--) degan tushunchaxam bor :
 //// else if bizga ifga to'g'ri kelmaganda yana bir boshqa variant bo'lib turadi ;
 //// elsedan farqi : unga shart bersa bo'ladi ;
+
+/// agar if else miz bitt line gasig'adigan bo'lsa jingalak qavsda yozishimiz mumkun
+
+// turnery
+
+/// turneryning xam vazifsi bir xil ;
+//// ularning farqi turneryni 
