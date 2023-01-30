@@ -154,3 +154,13 @@
 /// uni oddiy tenglikdan farqi
 
 // \n..........................=> terminalda bitta "Enter" tashlab beradi ;
+
+/// yani console.log("abc\ndef");
+/// consoleda abc
+//            def bo'lib chiqadi ;
+
+// \t..........................=> orasidan 5-ta probel tashlab beradi ;
+
+/// console.log("dasdasd\tsdasd");
+
+/// consoleda :  dasdasd     sdasd ;
