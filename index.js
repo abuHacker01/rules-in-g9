@@ -163,4 +163,24 @@
 
 /// console.log("dasdasd\tsdasd");
 
-/// consoleda :  dasdasd     sdasd ;
+/// consoleda :  (--dasdasd     sdasd--) ;
+
+////////////// to'rtinchi dars
+
+// if else
+
+/// Syntax of if else :
+
+// if (condition) {
+//
+// } else {
+//
+// }
+
+//// bu yerda birinchi bo'lib (--if--) keywordi
+//// kegin oddiy (--qavs--)lar . Ularni ichida (-shart-)
+///// shart bizda faqat (-comparation-) bo'lishi shart emas . (--True--) yoki (--False--) qaytarsa bo'ldi
+//// songra (--jingalak qavs--) .
+///// uni ichida shart to'g'ri chiqib qolsa nima qaytarishi yoziladi .
+//// kegin (--else--) keywordi yoziladi . Unga shart yozilmaydi ;
+//// va yana (--jingalak qavs--)
