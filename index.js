@@ -133,6 +133,8 @@
 /// 5. %.......................=> foizlig bo'luv
 /// 6. **......................=> kvadrat
 
+// Comparations
+
 // &&..........................=> (--va--) belgisi :
 
 /// bu belgi bir tomonidaxam false bo'lsa (false) qaytaradi ;
@@ -179,8 +181,17 @@
 
 //// bu yerda birinchi bo'lib (--if--) keywordi
 //// kegin oddiy (--qavs--)lar . Ularni ichida (-shart-)
-///// shart bizda faqat (-comparation-) bo'lishi shart emas . (--True--) yoki (--False--) qaytarsa bo'ldi
+///// qavs ichida (--True--) yoki (--False--)ni ifodalaydigan barcha qiymatlar bo'lishi mumkun ;
 //// songra (--jingalak qavs--) .
 ///// uni ichida shart to'g'ri chiqib qolsa nima qaytarishi yoziladi .
 //// kegin (--else--) keywordi yoziladi . Unga shart yozilmaydi ;
 //// va yana (--jingalak qavs--)
+
+
+/// else nega kerak
+
+//// else qachonki if va else iflarni birontasiga to'gri kelmasa elsedagi javob chiqadi;
+
+/// if elseda (--else if--) degan tushunchaxam bor :
+//// else if bizga ifga to'g'ri kelmaganda yana bir boshqa variant bo'lib turadi ;
+//// elsedan farqi : unga shart bersa bo'ladi ;
