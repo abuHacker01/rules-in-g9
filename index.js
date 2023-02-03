@@ -201,7 +201,7 @@
 // turnery
 
 /// turneryning xam vazifsi bir xil ;
-//// ularning farqi turneryni 
+//// ularning farqi turneryni
 
 
 
@@ -333,4 +333,14 @@
 //     default:
 //         console.log("we hope that this page looks ok!");
 //         break;
+// }
+
+////////////////////// karra jadval
+
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`\n${i}-karraliglar\n`);
+//     for (let j = 0; j < 10; j++) {
+//         console.log(`${i}*${j}=${i * j}`);
+//     }
 // }
