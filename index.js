@@ -305,3 +305,32 @@
 //         break;
 // }
 // console.log(a, b, c);
+
+////////////////////// tup sonlar
+
+// let c = 1;
+// for (let num = 2; num <= 100; num++) {
+//     for (let i = 1; i <= num; i++) if (num % i === 0) c++;
+//     if (c == 2) console.log(num);
+//     c = 0;
+// }
+
+////////////////////// nima qaytarishi :
+
+
+// let browser = "edge";
+// switch (browser) {
+//     case "edge":
+//         console.log("You've got the edge");
+//         break;
+//     case "yandex":
+//     case "Chrome":
+//     case "Safari":
+//     case "Opera":
+//     case "Firefox":
+//         console.log("Okey we support these browsers too");
+//         break;
+//     default:
+//         console.log("we hope that this page looks ok!");
+//         break;
+// }
