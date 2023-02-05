@@ -415,3 +415,11 @@
 //     console.log("xar xil amallar");
 // }
 
+// let num1 = 1;
+// let num2 = 1;
+// let num3 = -1;
+// let res = 0;
+// if (num1 < 0) res++;
+// if (num2 < 0) res++;
+// if (num3 < 0) res++;
+// console.log(res);
