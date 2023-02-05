@@ -380,3 +380,14 @@
 // function functionname(parametrs) {
 //     console.log("xar xil amallar");
 // }
+
+
+// Function :
+
+/// Function bu javascriptdagi dastur kod bloci ;
+
+/// Dinamic function :
+
+//// functionlar hoisting bo'ladi .
+//// chunki javascript engine yurganda birinchi bo'lib function keyvordlarini o'qib oladi ;
+
