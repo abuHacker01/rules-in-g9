@@ -345,7 +345,7 @@
 //     }
 // }
 
-/////////////////////// oltinchi dars 
+/////////////////////// oltinchi dars
 
 
 // Function :
@@ -380,4 +380,3 @@
 // function functionname(parametrs) {
 //     console.log("xar xil amallar");
 // }
-
