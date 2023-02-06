@@ -464,3 +464,36 @@
 // }
 
 // chackAge(19)
+
+// a ><= b
+
+// function kk(a, b) {
+
+//     if (a < b) {
+//         return console.log(a);
+//     }
+//     else {
+//         return console.log(b);
+//         }
+// }
+// kk(1, -3);
+
+// karra-karra
+
+// function x(a, b) {
+//     return console.log(a ** b);
+// }
+// x(3, 3);
+
+// to errow
+
+// let ask = (question, yes, no) => {
+//     if (question) yes();
+//     else no();
+// };
+
+// ask(
+//     "Do you agree?",
+//     function (yes) { console.log("You agreed."); },
+//     function (no) { console.log("You canceled the execution."); }
+// );
