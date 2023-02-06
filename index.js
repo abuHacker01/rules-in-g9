@@ -423,3 +423,21 @@
 // if (num2 < 0) res++;
 // if (num3 < 0) res++;
 // console.log(res);
+
+// to binry :
+
+/// let num = 3;
+/// console.log(num.toString(2));
+
+// chanje while
+
+// for (let i = 0; i < 3; i++) {
+//     console.log(`number ${i}!`);
+// }
+// let i = 0
+// while (i < 3) {
+// i++
+//     console.log(`number ${i}!`);
+// }
+
+``
