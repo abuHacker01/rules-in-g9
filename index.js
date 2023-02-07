@@ -383,6 +383,35 @@
 
 /// default parametr :
 
+//// qachonki functionni argumentida qiymat berilmasa default parametr yordam beradi ;
+
+//// misol uchun :
+
+//                              shular defaul parametrlar
+//                                 /                 |
+//                                /                  |
+//                               /                   |
+//                              /                    |
+// function fullname(name = "eshmAt", surname = "toshmatov") {
+//     name.toLowerCase();
+//     surname.toLowerCase();
+//     return console.log(surname + " " + name);
+// }
+// fullname();
+
+// return-lig VS return-siz
+
+/// returni bor functionlar :
+//// return-lig functionlar ma'lum bir qiymatni o'zini qaytarish kerak bo'sa shunda yoziladi ;
+
+/// returni yo'q function-lar
+//// returni yo'q function-lar esa xoxlagan qiymatlarini qaytarishi mumkun
+
+/// clean code :
+
+//// clean code- bu codni boshqalar tushunadigan darajada yozish ;
+
+
 
 // let num1 = 1;
 // let num2 = 1;
