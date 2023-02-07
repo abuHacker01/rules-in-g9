@@ -411,6 +411,37 @@
 
 //// clean code- bu codni boshqalar tushunadigan darajada yozish ;
 
+// funtion expression :
+
+/// sytax of function expression :
+
+// verable                                        amallar
+//  |                                               /
+//  |  functionname                parametrs       /
+//  |        |         keyword        /           /
+//  |        |            |          /           /
+//  |        |            |         /           /
+// let functionname = function (parametrs) {"amallar"};
+
+// declaration VS exprassin
+
+/// ularning farqi hoistingida
+
+//// declaration hoisting bo'ladi ;
+//// expression esa hoisting bo'lmaydi :
+///// chunki uni boshda verable bor ;
+
+// arrow function :
+
+///syntax of arrow function :
+
+// verable                                 amallar
+//  |                                         /
+//  |  functionname                keyword   /
+//  |        |        parametrs      /      /
+//  |        |            |         /      /
+//  |        |            |        /      /
+// let functionname = (parametrs) => {"amallar"};
 
 
 // let num1 = 1;
