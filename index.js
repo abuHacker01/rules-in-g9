@@ -649,14 +649,6 @@
 /// }
 /// console.log(res);
 
-/// if (valeus[0] < res) {
-///     res = va leus[0];
-/// } if (valeus[1] < res) {
-///     res = valeus[1];
-/// } if (valeus[2] < res) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
 
 // let menu = {
 //     width: 200,
@@ -664,7 +656,6 @@
 //     title: "My menu"
 // };
 // let valeus = Object.values(menu);
-
 // function multiplyNumbers(q) {
 //     if (q[0] * 2 !== NaN) {
 //         q[0] = q[0] * 2;
