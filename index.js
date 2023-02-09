@@ -649,6 +649,7 @@
 /// }
 /// console.log(res);
 
+// oxirigacha emas
 
 // let menu = {
 //     width: 200,
