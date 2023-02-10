@@ -527,23 +527,6 @@
 //     function (no) { console.log("You canceled the execution."); }
 // );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // mandarinni axlatga tashlash
 
 /// let user = {};
@@ -675,3 +658,13 @@
 // console.log(valeus);
 
 // console.log(menu);
+
+// function makeUser() {                       |
+//     return {                                |
+//         name: "Eshmat",                     |
+//         ref: this                           |__________bu yerda undefined chiqadi .
+//     };                                      |
+// }                                           |
+// let user = makeUser()                       |
+// console.log(user.ref.name);                 |
+
