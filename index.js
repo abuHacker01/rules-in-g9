@@ -188,7 +188,7 @@
 //// va yana (--jingalak qavs--)
 
 
-/// else nega kerak
+/// else nega kerak :
 
 //// else qachonki if va else iflarni birontasiga to'gri kelmasa elsedagi javob chiqadi;
 
