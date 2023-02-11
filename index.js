@@ -204,9 +204,6 @@
 //// ularning farqi turneryni
 
 
-
-
-
 ////////////////////// raqamlarni xarifga o'tkazish
 
 // let num = Math.round(Math.random() * 1000);
