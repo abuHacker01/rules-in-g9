@@ -341,7 +341,7 @@
 //     }
 // }
 
-/////////////////////// oltinchi dars
+////////////////////// oltinchi dars
 
 
 // Function declaration :
