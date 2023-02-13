@@ -665,7 +665,7 @@
 // console.log(user.ref.name);                 |
 
 
-// this 
+// this
 
 /// this bu thini o'rab turgan functionni o'rab turgan object
 //// misol uchun :
@@ -691,3 +691,19 @@
 
 /// garberge collectio b qachonki non-primetive data turilig verable yaratsag
 //// va uni primetive-ga o'tkazsag stackdagi malumot bilan heapdagi malumoni bog'lab turuvchi ko'prig uzuladi va heapdagi malumot garbergega tushadi ;
+
+// qiymatlarni qo'shib ket
+
+/// let obj = {
+///     esmat: 100,
+///     toshmat: 150,
+///     gulmat: 200,
+/// };
+/// let res = 0;
+/// function dubling(obj) {
+///     for (key in obj) {
+///         res += obj[key];
+///     }
+/// }
+/// dubling(obj);
+/// console.log(res);
