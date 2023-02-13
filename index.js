@@ -707,3 +707,12 @@
 /// }
 /// dubling(obj);
 /// console.log(res);
+
+/// function multiplyNumeric(obj) {
+///     for (key in obj) {
+///         if (typeof obj[key] == "number") {
+///             obj[key] *= 2;
+///         }
+///     }
+/// }
+/// multiplyNumeric(menu);
