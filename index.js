@@ -1,16 +1,12 @@
-////////////// birinchi dars
+// GitHub :
 
+/// GitHub bu dasturchilar fleshkasi ,
+//// Yani ular GitHub orqali malumot ulashishadi .
 
-// GitHub
-
-/// progromist bo'lmaganlar ma'lumotini fleshkada tarqatadi progromistlar GitHub orqali
-
-/// ma'lumot ulashishda ishlaydigan nomlar
-
-//// master.....................=> proectdagi eng katta branch (proectni o'zi) .
-//// breach.....................=> yani bir kichik qisim .
-//// pull.......................=> ma'lumotni boshqaga berish .
-//// push.......................=> o'z ma'lumotini masterga qo'shish
+/// master.....................=> proectdagi eng katta branch (proectni o'zi) .
+/// brach......................=> yani bir kichik qisim .
+/// pull.......................=> ma'lum branch-dan ma'lum branch-ga ma'lumot yuborish .
+/// push.......................=> ma'lum branch-ni masterga qo'shish .
 
 /// push to GitHub :
 
@@ -18,27 +14,24 @@
 //// repositoryga ulash
 
 ///// 1 - git init
-///// 2 - git remote add origin URL
+///// 2 - git remote add origin https://github.com/abuHacker01/javaScript.git
 
 
 //// birinchi urunishda xatolik ko'rsatadi u xolda quidagi ko'dlarni yozamiz :
 
 ///// 1. git config -global user.email "your@gmail.com"
-///// 2. git config --global user.name "mukhtorov"
+///// 2. git config --global user.name "mukhtorov"uo5oiyoiyourjht;kthg
 
 
 //// kiritish/yangilash
 
-///// 1. git add .
-///// 2. git commit -m "bittalig qo'shtirnoq qoysaxam bo'lardi lekin bazida xato bradi"
-///// 3. git push origin master
-
-
-////////////// ikkinchi dars
-
+///// 3. git add .
+///// 4. git commit -m ""
+///// 5. git push origin master
 // varable
 
 /// varablelarning 3 turi bo'ladi :
+
 //// 1. VAR
 
 ///// u oldindan beri bor bo'lgan.
@@ -66,7 +59,7 @@
 /// 8 ta data type bor.....=> 2 ga bolinadi ==> primitive vs non-primitive ;
 
 /// primetive : malum bir informatsiyalarni o'zida saqlaydi .
-/// non-primetive : bir
+/// non-primetive : bir obyektni malumotlarini saqlaydi
 
 
 //// primitive :
@@ -89,9 +82,7 @@
 
 //// non-primitive :
 
-///// object...............=> array, function;
-
-////////////// uchinchi dars
+///// object...............=> array, function ;
 
 // Type Convirsion
 
@@ -107,7 +98,7 @@
 // console.log(typeof valeu);  // string-deb chiqadi ;
 
 
-// STRIN ==> NUMBER
+// STRING ==> NUMBER
 
 // let str = "123";
 // console.log(typeof str);    // string ;
@@ -124,7 +115,7 @@
 
 /// agar hariflarni ustida arifmetik amal bajarsak NaN chiqadi ;
 
-// Basic operators , maths :
+// Basic operators of maths :
 
 /// 1. +.......................=> qo'shuv
 /// 2. -.......................=> ayruv
@@ -132,8 +123,6 @@
 /// 4. /.......................=> bo'luv
 /// 5. %.......................=> foizlig bo'luv
 /// 6. **......................=> kvadrat
-
-// Comparations
 
 // &&..........................=> (--va--) belgisi :
 
@@ -154,20 +143,24 @@
 
 // ===.........................=> qat'iy tenglig :
 /// uni oddiy tenglikdan farqi
+// if , else :
 
-// \n..........................=> terminalda bitta "Enter" tashlab beradi ;
+/// if else nima vazifa bajaradi ?
 
-/// yani console.log("abc\ndef");
-/// consoleda abc
-//            def bo'lib chiqadi ;
+//// if else - to'g'ri yoki noto'g'riligiini tekshirib , unga qarab bergan xodisamizbi bajaradi ;
 
-// \t..........................=> orasidan 5-ta probel tashlab beradi ;
+/// Syntax of if else ?
 
-/// console.log("dasdasd\tsdasd");
+///          shart   nima chiqarishi
+//            /         /
+//           /         /
+//          /         /
+//// if(condition){manual}
 
-/// consoleda :  (--dasdasd     sdasd--) ;
+///// shart - aynan shu shartimiz to'g'ri yoki noto'g'ri bo'ladi ;
+///// yani shart yozilgan ma'lumot
 
-////////////// to'rtinchi dars
+///// qo'nlanma - qo'nlanmaga yozgan ko'dlarimiz ishlaydi . Agar to'g'ri bo'lsa ;
 
 // if else
 
@@ -188,7 +181,7 @@
 //// va yana (--jingalak qavs--)
 
 
-/// else nega kerak ? :
+/// else nega kerak
 
 //// else qachonki if va else iflarni birontasiga to'gri kelmasa elsedagi javob chiqadi;
 
@@ -203,150 +196,84 @@
 /// turneryning xam vazifsi bir xil ;
 //// ularning farqi turneryni
 
-////////////////////// raqamlarni xarifga o'tkazish
+// switch :
 
-// let num = Math.round(Math.random() * 1000);
-// console.log(num);
-// let yuzlig = parseInt(num / 100);
-// num = num % 100;
-// let onlig = parseInt(num / 10);
-// num = num % 10;
-// let birlig = num;
-// a = "", b = "", d = "";
-// switch (yuzlig) {
-//     case 1:
-//         a = "bir yuz";
-//         break;
-//     case 2:
-//         a = "ikki yuz";
-//         break;
-//     case 3:
-//         a = "uch yuz";
-//         break;
-//     case 4:
-//         a = "to'r yuz";
-//         break;
-//     case 5:
-//         a = "bech yuz";
-//         break;
-//     case 6:
-//         a = "olti yuz";
-//         break;
-//     case 7:
-//         a = "yetti yuz";
-//         break;
-//     case 8:
-//         a = "sakkiz yuz";
-//         break;
-//     case 9:
-//         a = "to'qqiz yuz";
-//         break;
-// }
-// switch (onlig) {
-//     case 1:
-//         b = "o'n";
-//         break;
-//     case 2:
-//         b = "yigirma";
-//         break;
-//     case 3:
-//         b = "o'ttiz";
-//         break;
-//     case 4:
-//         b = "qiriq";
-//         break;
-//     case 5:
-//         b = "ellig";
-//         break;
-//     case 6:
-//         b = "oltmush";
-//         break;
-//     case 7:
-//         b = "yetmush";
-//         break;
-//     case 8:
-//         b = "sakson";
-//         break;
-//     case 9:
-//         b = "to'qson";
-//         break;
-// }
-// switch (birlig) {
-//     case 1:
-//         c = "bir";
-//         break;
-//     case 2:
-//         c = "ikki";
-//         break;
-//     case 3:
-//         c = "uch";
-//         break;
-//     case 4:
-//         c = "to'rt";
-//         break;
-//     case 5:
-//         c = "bech";
-//         break;
-//     case 6:
-//         c = "olti";
-//         break;
-//     case 7:
-//         c = "yetti";
-//         break;
-//     case 8:
-//         c = "sakkiz";
-//         break;
-//     case 9:
-//         c = "to'qqiz";
-//         break;
-// }
-// console.log(a, b, c);
+/// switch-xam if else , turnery bilan bitta vazifa bajaradi :
+//// farqi uni shartini aniq qilib beriladi ;
 
-////////////////////// tup sonlar
+/// syntax of switch :
 
-// let c = 1;
-// for (let num = 2; num <= 100; num++) {
-//     for (let i = 1; i <= num; i++) if (num % i === 0) c++;
-//     if (c == 2) console.log(num);
-//     c = 0;
+// keyword
+//    |      nimani ustida
+//    |      amal bajarishi      break keywordi
+//    |         /                      |
+//    |        /         shart        /
+//    |       /            |         /
+// switch (element) {      |        /
+//     case condition:-----|       /     default (else)
+//                                |            |
+//         break;-----------------|            |
+//     default:--------------------------------|    break keywordi
+//                                                       |
+//         break;----------------------------------------|
 // }
 
-////////////////////// nima qaytarishi :
+/// break bizga agar shart to'g'ri keladigan bo'lsa shu joyda to'xtatib beradi ;
+//// agar break bo'lmasa bitta case to'g'ri kelsa kegingi xammasini chiqarib yuboradi ;
 
+// for loop
 
-// let browser = "edge";
-// switch (browser) {
-//     case "edge":
-//         console.log("You've got the edge");
-//         break;
-//     case "yandex":
-//     case "Chrome":
-//     case "Safari":
-//     case "Opera":
-//     case "Firefox":
-//         console.log("Okey we support these browsers too");
-//         break;
-//     default:
-//         console.log("we hope that this page looks ok!");
-//         break;
+/// for loop - iterator xissoplanadi . Yaniy aylaantirib beruvchi ;
+
+/// Syntax of for loop
+
+//        keyword
+//  _________|
+//  |             boslang'ich qiymat
+//  |          ____________|         qancha qo'shilib borishi
+//  |          |                                 |
+//  |          |           qachon tugashi        |
+//  |          |                 |               |    biz xoxlagan amallar
+//  |   _______|______ __________|_________  ____|___          |
+// for (let index = 0; index < array.length; index++) {        |
+//                                 ____________________________|
 // }
 
-////////////////////// karra jadval
+// while
 
+/// while (if-ga o'xshab ketadi) uni if-dan farqi false chiqgunicha aylanaveradi .
 
-// for (let i = 2; i <= 9; i++) {
-//     console.log(`\n${i}-karraliglar\n`);
-//     for (let j = 2; j <= 9; j++) {
-//         console.log(`${i} * ${j} = ${i * j}`);
-//     }
+/// Syntax of while :
+
+//         keyword
+//            |        shart
+//   _________|          |
+//   |        ___________|     amal
+//   |        |                 |
+// while (condition) {          |
+//    __________________________|
 // }
 
-////////////////////// oltinchi dars
 
+// do while
+
+/// do while bilan whilening farqi do while birinchi amal bajariladi :
+//// bu degani sart xato bo'lsaxam bir martta ishlaydi .
+
+/// Syntax of do while :
+
+//    keyword
+//  ____|                shart
+// |                       |
+// |        amal           |
+// |         |             |
+// do {      |    _________|
+//      _____|    |
+// } while (condition);
 
 // Function declaration :
 
-/// Function bu javascriptdagi dastur kod bloci ;
+/// Function bu javascriptdagi dastur kod bloki ;
 
 /// Dinamic function :
 
@@ -405,7 +332,7 @@
 
 /// clean code :
 
-//// clean code- bu codni boshqalar tushunadigan darajada yozish ;
+//// clean code - bu codni boshqalar tushunadigan darajada yozish ;
 
 // funtion expression :
 
@@ -425,7 +352,7 @@
 
 //// declaration hoisting bo'ladi ;
 //// expression esa hoisting bo'lmaydi :
-///// chunki uni boshda verable bor ;
+///// chunki unda verable bor ;
 
 // arrow function :
 
@@ -438,232 +365,6 @@
 //  |        |            |         /      /
 //  |        |            |        /      /
 // let functionname = (parametrs) => {"amallar"};
-
-
-// let num1 = 1;
-// let num2 = 1;
-// let num3 = -1;
-// let res = 0;
-// if (num1 < 0) res++;
-// if (num2 < 0) res++;
-// if (num3 < 0) res++;
-// console.log(res);
-
-// to binry :
-
-/// let num = 3;
-/// console.log(num.toString(2));
-
-// chanje while
-
-// for (let i = 0; i < 3; i++) {
-//     console.log(`number ${i}!`);
-// }
-// let i = 0
-// while (i < 3) {
-// i++
-//     console.log(`number ${i}!`);
-// }
-
-// 18+
-
-// function chackAge(age) {
-//     if (age > 18) {
-//         return console.log(true);
-//     } else {
-//         return console.log('Did parents allow you?');
-
-//     }
-// }
-// chackAge(19);
-
-// ? and ||
-
-// function chackAge(age) {
-//     if (age || 18) {
-//         return console.log(true);
-//     }else{
-
-//        return console.log('Did parents allow you?');
-//     }
-// }
-
-// chackAge(19)
-
-// a ><= b
-
-// function kk(a, b) {
-
-//     if (a < b) {
-//         return console.log(a);
-//     }
-//     else {
-//         return console.log(b);
-//         }
-// }
-// kk(1, -3);
-
-// karra-karra
-
-// function x(a, b) {
-//     return console.log(a ** b);
-// }
-// x(3, 3);
-
-// to errow
-
-// let ask = (question, yes, no) => {
-//     if (question) yes();
-//     else no();
-// };
-
-// ask(
-//     "Do you agree?",
-//     function (yes) { console.log("You agreed."); },
-//     function (no) { console.log("You canceled the execution."); }
-// );
-
-// mandarinni axlatga tashlash
-
-/// let user = {};
-/// user.name = "John";
-/// user.surname = "Smith";
-/// user.name = "Pate"
-/// delete user.name;
-
-// objectni bo'sh-bo'shemasligini tekshirib beradi
-
-/// function isEmpty(test) {
-///     if (test === {}) {
-///         return true;
-///     } else {
-///         return false;
-///     }
-/// }
-
-/// console.log(isEmpty(user))
-
-// katta o'rtancha kichig
-
-/// let obj = {
-///     Ann: Math.round(Math.random() * 1000),
-///     Joxn: Math.round(Math.random() * 1000),
-///     Pete: Math.round(Math.random() * 1000)
-/// };
-/// console.log(obj);
-/// let valeus = Object.values(obj);
-/// let res = 0;
-/// if (valeus[0] > res) {
-///     res = valeus[0];
-/// } if (valeus[1] > res) {
-///     res = valeus[1];
-/// } if (valeus[2] > res) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
-
-/// if (valeus[0] > valeus[1] && valeus[0] < valeus[2] || valeus[0] < valeus[1] && valeus[0] > valeus[2]) {
-///     res = valeus[0];
-/// } if (valeus[1] > valeus[0] && valeus[1] < valeus[2] || valeus[1] < valeus[0] && valeus[1] > valeus[2]) {
-///     res = valeus[1];
-/// } if (valeus[2] > valeus[1] && valeus[2] < valeus[0] || valeus[2] < valeus[1] && valeus[2] > valeus[0]) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
-
-/// if (valeus[0] < res) {
-///     res = valeus[0];
-/// } if (valeus[1] < res) {
-///     res = valeus[1];
-/// } if (valeus[2] < res) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
-
-// mandarinni axlatga tashlash
-
-/// let user = {};
-/// user.name = "John";
-/// user.surname = "Smith";
-/// user.name = "Pate"
-/// delete user.name;
-
-// objectni bo'sh-bo'shemasligini tekshirib beradi
-
-/// function isEmpty(test) {
-///     if (test === {}) {
-///         return true;
-///     } else {
-///         return false;
-///     }
-/// }
-
-/// console.log(isEmpty(user))
-
-// eng katta oylig
-
-/// let obj = {
-///     Ann: Math.round(Math.random() * 1000),
-///     Joxn: Math.round(Math.random() * 1000),
-///     Pete: Math.round(Math.random() * 1000)
-/// };
-/// console.log(obj);
-/// let valeus = Object.values(obj);
-/// let res = 0;
-/// if (valeus[0] > res) {
-///     res = valeus[0];
-/// } if (valeus[1] > res) {
-///     res = valeus[1];
-/// } if (valeus[2] > res) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
-
-/// if (valeus[0] > valeus[1] && valeus[0] < valeus[2] || valeus[0] < valeus[1] && valeus[0] > valeus[2]) {
-///     res = valeus[0];
-/// } if (valeus[1] > valeus[0] && valeus[1] < valeus[2] || valeus[1] < valeus[0] && valeus[1] > valeus[2]) {
-///     res = valeus[1];
-/// } if (valeus[2] > valeus[1] && valeus[2] < valeus[0] || valeus[2] < valeus[1] && valeus[2] > valeus[0]) {
-///     res = valeus[2];
-/// }
-/// console.log(res);
-
-// oxirigacha emas
-
-// let menu = {
-//     width: 200,
-//     height: 300,
-//     title: "My menu"
-// };
-// let valeus = Object.values(menu);
-// function multiplyNumbers(q) {
-//     if (q[0] * 2 !== NaN) {
-//         q[0] = q[0] * 2;
-//     }
-//     if (q[1] * 2 !== NaN) {
-//         q[1] = q[1] * 2;
-//     }
-//     if (q[2] * 2 !== NaN) {
-//         q[2] = q[2] * 2;
-//     }
-// }
-// multiplyNumbers(valeus)
-// menu.width = valeus[0];
-// menu.height = valeus[1];
-// menu.title = valeus[2];
-// console.log(valeus);
-
-// console.log(menu);
-
-// function makeUser() {                       |
-//     return {                                |
-//         name: "Eshmat",                     |
-//         ref: this                           |__________bu yerda undefined chiqadi .
-//     };                                      |
-// }                                           |
-// let user = makeUser()                       |
-// console.log(user.ref.name);                 |
-
 
 // this
 
@@ -692,27 +393,5 @@
 /// garberge collectio b qachonki non-primetive data turilig verable yaratsag
 //// va uni primetive-ga o'tkazsag stackdagi malumot bilan heapdagi malumoni bog'lab turuvchi ko'prig uzuladi va heapdagi malumot garbergega tushadi ;
 
-// qiymatlarni qo'shib ket
+// structuredClone :
 
-/// let obj = {
-///     esmat: 100,
-///     toshmat: 150,
-///     gulmat: 200,
-/// };
-/// let res = 0;
-/// function dubling(obj) {
-///     for (key in obj) {
-///         res += obj[key];
-///     }
-/// }
-/// dubling(obj);
-/// console.log(res);
-
-/// function multiplyNumeric(obj) {
-///     for (key in obj) {
-///         if (typeof obj[key] == "number") {
-///             obj[key] *= 2;
-///         }
-///     }
-/// }
-/// multiplyNumeric(menu);
