@@ -387,7 +387,6 @@
 
 //// qachonki arrow function ishlasa
 
-
 // garberge collaction :
 
 /// garberge collectio b qachonki non-primetive data turilig verable yaratsag
