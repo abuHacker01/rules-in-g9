@@ -28,6 +28,7 @@
 ///// 3. git add .
 ///// 4. git commit -m ""
 ///// 5. git push origin master
+
 // varable
 
 /// varablelarning 3 turi bo'ladi :
@@ -115,14 +116,17 @@
 
 /// agar hariflarni ustida arifmetik amal bajarsak NaN chiqadi ;
 
+
 // Basic operators of maths :
 
-/// 1. +.......................=> qo'shuv
-/// 2. -.......................=> ayruv
-/// 3. *.......................=> ko'paytiruv
-/// 4. /.......................=> bo'luv
-/// 5. %.......................=> foizlig bo'luv
-/// 6. **......................=> kvadrat
+/// 1. +.......................=> qo'shuv ;
+/// 2. -.......................=> ayruv ;
+/// 3. *.......................=> ko'paytiruv ;
+/// 4. /.......................=> bo'luv ;
+/// 5. %.......................=> foizlig bo'luv ;
+/// 6. **......................=> kvadrat ;
+
+// taqqoslash :
 
 // &&..........................=> (--va--) belgisi :
 
@@ -135,14 +139,23 @@
 /// bu belgi bir tomonidaxam true bo'lsa (true) qaytaradi ;
 /// faqat ikkala tomonida false bo'lsa kegin (false) qaytaradi ;
 
+
 // ==..........................=> teng yoki yo'qligini aytadi .
 
 /// misol uchun :
 
 //// console.log("1" == 1);      // true
 
+
 // ===.........................=> qat'iy tenglig :
-/// uni oddiy tenglikdan farqi
+
+/// misol uchun :
+
+//// console.log("1" == 1);      // false
+
+/// uni oddiy tenglikdan farqi u data typesigaxam qaraydi ;
+ 
+
 // if , else :
 
 /// if else nima vazifa bajaradi ?
