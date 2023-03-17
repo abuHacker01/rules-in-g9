@@ -432,15 +432,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 // JSON :
 
 /// JSON-ning kengaytmasi : JavaScript Object Notation
@@ -721,5 +712,3 @@
 // console.log(add.func());
 
 //// yani biz super bilan boshqa functionlarni ishlatishimiz mumkun ;
-
-
